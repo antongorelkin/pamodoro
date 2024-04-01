@@ -1,0 +1,31 @@
+.totalTime {
+  background-color: #F4F4F4;
+  padding: 25px;
+  grid-column: 1/4;
+  grid-row: 1/2;
+  height: 260px;
+  padding: 25px;
+  margin-right: 30px;
+}
+
+.title {
+  margin: 0;
+  margin-bottom: 18px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 137%;
+  color: #333;
+}
+
+.information {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  color: #333;
+}
+
+.time {
+  font-weight: 700;
+  color: #dc3e22;
+}

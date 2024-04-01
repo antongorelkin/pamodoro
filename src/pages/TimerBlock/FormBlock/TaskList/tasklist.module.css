@@ -1,0 +1,9 @@
+.taskList {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  min-width: 370px;
+  flex-direction: column;
+  padding: 0;
+  position: relative;
+}

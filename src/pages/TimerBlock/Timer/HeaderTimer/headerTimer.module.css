@@ -1,0 +1,35 @@
+.headerTimer {
+  display: flex;
+  width: 100%;
+  background-color: #c4c4c4;
+  padding: 20px 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.taskName {
+  margin: 0;
+  font-size: 16px;
+  line-height: 17px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.pomidorCount {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 17px;
+  font-weight: 400;
+}
+
+.headerStart {
+  background-color: #DC3E22;
+}
+
+.headerBreak {
+  background-color: #A8B64F;
+}
+
+.headerNotStart {
+  background-color: #c4c4c4;
+}

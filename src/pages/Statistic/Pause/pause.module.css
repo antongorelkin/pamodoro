@@ -1,0 +1,42 @@
+.pause {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  grid-column: 5/9;
+  grid-row: 3/4;
+  height: 179px;
+  padding: 25px;
+  background-color: #f4f4f4;
+}
+
+.dscr {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 137%;
+  color: #333;
+}
+
+.time {
+  font-weight: 400;
+  font-size: 64px;
+  color: #333;
+}
+
+
+.svg path {
+  stroke: #9C97D7;
+}
+
+.purple {
+  background-color: #DFDCFE;
+}

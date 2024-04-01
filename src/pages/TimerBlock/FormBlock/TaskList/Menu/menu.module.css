@@ -1,0 +1,87 @@
+.menuButton {
+  background-color: transparent;
+  border: 0;
+  position: absolute;
+  top: 37%;
+  right: 0;
+  cursor: pointer;
+  padding: 0;
+  height: 26px;
+}
+
+.menuTodoBtn {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  border: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  min-width: 99%;
+  color: #999999;
+}
+
+.menuTodoBtn:hover {
+  background-color: #f4f4f4;
+}
+
+.menuTodoBtn:disabled svg path {
+  fill: #c4c4c4
+}
+
+.dropdown {
+  position: absolute;
+  top: 55px;
+  right: -44.5px;
+  border: 1px solid #c4c4c4;
+
+}
+
+.dropdown.dropdownList {
+  position: relative;
+  background-color: #FFFFFF;
+}
+
+.dropdown .dropdownList::after {
+  content: "";
+  width: 9px;
+  height: 9px;
+  display: block;
+  position: absolute;
+  top: -5px;
+  right: 50%;
+  left: 50%;
+  border-bottom: 1px solid #c4c4c4;
+  border-left: 1px solid #c4c4c4;
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+  background: linear-gradient(45deg, #fff 50%, rgba(255, 255, 255, 0) 50%);
+}
+
+.modalTitle {
+  margin: 0;
+  margin-bottom: 20px;
+  line-height: 17px;
+  font-size: 24px;
+
+}
+
+.deleteBtn {
+  padding: 19px 50px;
+  margin-bottom: 5px;
+  background-color: #DC3E22;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btnEsc {
+  padding: 0;
+  border: none;
+  border-bottom: 1px solid #333;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 16px;
+}

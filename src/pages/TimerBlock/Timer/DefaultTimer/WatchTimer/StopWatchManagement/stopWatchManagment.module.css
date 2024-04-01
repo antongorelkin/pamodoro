@@ -1,0 +1,39 @@
+.btnContainer {
+  display: flex;
+}
+
+.btnTimer {
+  color: #fff;
+  font-size: 16px;
+  line-height: 17px;
+  border: 0;
+  cursor: pointer;
+  padding: 19px 50px;
+}
+
+.btnTimer:not(:last-child) {
+  margin-right: 25px;
+}
+
+.btnGreen {
+  background-color: #A8B64F;
+}
+
+
+.btnRed:hover {
+  background-color: #DC3E22;
+  color: #fff
+}
+
+
+.btnRed:disabled {
+  border: 2px solid #c4c4c4;
+  color: #c4c4c4;
+  background-color: inherit;
+  cursor: auto;
+}
+
+.btnRed {
+  color: #DC3E22;
+  border: 2px solid #DC3E22;
+}

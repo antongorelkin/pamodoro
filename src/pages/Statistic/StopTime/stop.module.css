@@ -1,0 +1,39 @@
+.stop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  grid-column: 9/13;
+  grid-row: 3/4;
+  height: 179px;
+  padding: 25px;
+  background: #f4f4f4;
+}
+
+.dscr {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 137%;
+  color: #333;
+}
+
+.stops {
+  font-weight: 400;
+  font-size: 64px;
+  color: #333;
+}
+
+.blue {
+  background-color: #C5F1FF;
+}
+
+.svg path {
+  stroke: #7FC2D7;
+}

@@ -1,0 +1,19 @@
+.stopTimer {
+  font-size: 150px;
+  line-height: 180px;
+  display: flex;
+}
+
+.btnPlus {
+  border: 0;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.stopTimerRed {
+  color: #DC3E22;
+}
+
+.stopTimerGreen {
+  color: #A8B64F;
+}
